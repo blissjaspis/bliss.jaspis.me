@@ -1,42 +1,24 @@
-# Dev Landing Page
+# bliss.jaspis.me
 
-Minimal landing page for developers.
+Digital resume for Bliss Jaspis, built with [Astro](https://astro.build) and styled with [Tailwind CSS](https://tailwindcss.com) v4.
 
-Developers don't talk much. Their code does all the talking. So here's a minimal landing page for developers.
+## Development
 
-## Why? [![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)](http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)
+```bash
+pnpm install
+pnpm dev
+```
 
-I wanted a dev landing page to showcase everything I do online and I wanted it to be minimal and right to the point rather beautiful and hefty. And I think most of the devs out there would want the same.
+## Build
 
-So I sat down one night and created this **Dev Landing Page**. Feel free to fork, clone, play around and make this your own.
+```bash
+pnpm build
+```
 
-## Themes
+The built site is output to `dist/`.
 
-Dev Landing Page comes in 9 **material themes**.
+## Project structure
 
-![9 Material Themes](https://image.ibb.co/jJVKCn/dev_landing_page_themes.jpg)
-
-If none of these themes fit within your taste, it's quite easy to customize and create your own too. 
-
-## GitHub Pages
-
-GitHub makes it easy to create personal websites. Follow this link - [GitHub Pages](https://pages.github.com/) to know how or follow the steps below.
-
-If you already have a GitHub profile (obviously)
-
-* Create a new repo with the name `{username}.github.io`
-* Clone/Fork this repo and copy the files to your newly created repo
-* Customize your name, links and everything else for your landing page
-* `git push`
-
-Voila! Your site should be live at `https://{username}.github.io`
-
-Here's mine, but I revamped my **Dev Landing Page** with React and some magic - [Dinesh Pandiyan](https://flexdinesh.github.io)
-
-### Custom Domain
-
-If you want to make your new landing page available under a domain like `{username}.com` you can get started here - [Setting up a custom domain](https://help.github.com/articles/quick-start-setting-up-a-custom-domain/).
-
-## License
-
-MIT © Dinesh Pandiyan
+- `src/pages/index.astro` - Resume page
+- `src/styles/global.css` - Tailwind entrypoint and theme tokens
+- `public/favicon.ico` - Site favicon
