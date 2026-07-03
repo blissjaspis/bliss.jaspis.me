@@ -1,8 +1,9 @@
 @import "tailwindcss";
 
 @theme {
-  --font-reem: "Reem Kufi", sans-serif;
   --font-roboto: "Roboto", sans-serif;
-  --color-brand-yellow: #FFEB3B;
-  --color-brand-dark: #1E1E1E;
+  --color-resume-orange: #d4884d;
+  --color-resume-blue: #5a7d9a;
+  --color-resume-body: #4f4f4f;
+  --color-resume-muted: #888888;
 }

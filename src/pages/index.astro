@@ -7,20 +7,111 @@ import '../styles/global.css';
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bliss Jaspis About</title>
+  <title>Bliss Jaspis — Full Stack Developer</title>
+  <meta name="description" content="Resume of Bliss Jaspis, Full Stack Developer based in Jakarta, Indonesia.">
   <link rel="icon" href="/favicon.ico" type="image/png" />
-  <link href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300" rel="stylesheet">
-  <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
 </head>
-<body class="bg-brand-yellow text-brand-dark font-roboto">
-  <main class="flex min-h-screen flex-col items-center justify-center px-8 text-center">
-    <h1 class="font-reem text-5xl font-semibold md:text-6xl lg:text-7xl">Hello, I'm Bliss Jaspis!</h1>
-    <p class="my-6 text-2xl font-light">Web Developer | Mac & Linux Lovers</p>
-    <div class="text-5xl">
-      <a class="p-2" target="_blank" rel="noopener noreferrer" href="https://twitter.com/Yaspisz"><i class="fab fa-twitter"></i></a>
-      <a class="p-2" target="_blank" rel="noopener noreferrer" href="https://github.com/blissjaspis"><i class="fab fa-github"></i></a>
-      <a class="p-2" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/Yaspisz"><i class="fab fa-instagram"></i></a>
-      <a class="p-2" href="mailto:bliss@jaspis.me"><i class="far fa-envelope"></i></a>
+<body class="bg-white font-roboto text-resume-body antialiased">
+  <main class="mx-auto max-w-4xl px-8 py-10 md:px-12 md:py-14">
+    <header class="mb-10 flex items-center gap-5">
+      <img
+        src="/profile.png"
+        alt="Bliss Jaspis"
+        width="88"
+        height="88"
+        class="h-[88px] w-[88px] shrink-0 object-cover"
+      />
+      <div>
+        <h1 class="text-[2rem] font-bold leading-tight text-resume-orange md:text-4xl">Bliss Jaspis</h1>
+        <p class="mt-1 text-lg text-resume-body">Full Stack Developer</p>
+      </div>
+    </header>
+
+    <div class="grid grid-cols-1 gap-10 md:grid-cols-[2fr_1fr] md:gap-12">
+      <div class="space-y-8">
+        <section>
+          <h2 class="mb-3 text-lg font-bold text-resume-orange">Professional Summary</h2>
+          <p class="text-[0.95rem] leading-relaxed">
+            Experienced programmer adept in all stages of advanced web development. Knowledgeable in user
+            interface, testing, and debugging processes. Bringing forth expertise in design, installation,
+            testing and maintenance of web systems. Equipped with a diverse and promising skill-set.
+            Proficient in an assortment of technologies, including Laravel, Vuejs, Nextjs, Tailwindcss, and
+            Kotlin Android. Can operate DevOps with services from Digitalocean and Amazon Web Service. Able to
+            effectively self-manage during independent projects, as well as collaborate in a team setting.
+          </p>
+        </section>
+
+        <section>
+          <h2 class="mb-4 text-lg font-bold text-resume-orange">Employment History</h2>
+          <article>
+            <h3 class="font-bold text-resume-body">
+              Full Stack Developer at PT. Goalkes Indonesia Jaya, Jakarta
+            </h3>
+            <p class="mt-1 text-sm text-resume-muted">Sept 2016 — Present</p>
+            <p class="mt-2 text-[0.95rem] leading-relaxed">
+              Build an e-commerce website, with back-end from Laravel. For Frontend from Vuejs and Tailwindcss.
+            </p>
+          </article>
+        </section>
+
+        <section>
+          <h2 class="mb-4 text-lg font-bold text-resume-orange">Education</h2>
+          <article>
+            <h3 class="font-bold text-resume-body">Adventist University of Indonesia at Bandung</h3>
+            <p class="mt-1 text-[0.95rem]">Bachelor of Information Technology</p>
+            <p class="mt-1 text-sm text-resume-muted">Aug 2010 — May 2016</p>
+          </article>
+        </section>
+      </div>
+
+      <aside class="space-y-6 text-[0.95rem]">
+        <section>
+          <h2 class="mb-1 font-bold text-resume-blue">Address</h2>
+          <p>Jakarta, Indonesia</p>
+        </section>
+
+        <section>
+          <h2 class="mb-1 font-bold text-resume-blue">Email</h2>
+          <p>
+            <a href="mailto:bliss@jaspis.me" class="text-blue-600 underline hover:text-blue-800">
+              bliss@jaspis.me
+            </a>
+          </p>
+        </section>
+
+        <section>
+          <h2 class="mb-1 font-bold text-resume-blue">Phone</h2>
+          <p>+6281223752170</p>
+        </section>
+
+        <section>
+          <h2 class="mb-2 font-bold text-resume-blue">Skills</h2>
+          <ul class="list-none space-y-0.5 pl-0">
+            <li>Laravel</li>
+            <li>Vuejs</li>
+            <li>Reactjs</li>
+            <li>Tailwindcss</li>
+            <li>Android Development</li>
+            <li>iOS Development</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 class="mb-2 font-bold text-resume-blue">Languages</h2>
+          <ul class="list-none space-y-0.5 pl-0">
+            <li>English</li>
+            <li>Indonesian</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 class="mb-2 font-bold text-resume-blue">Hobbies</h2>
+          <ul class="list-none space-y-0.5 pl-0">
+            <li>Driving</li>
+          </ul>
+        </section>
+      </aside>
     </div>
   </main>
 </body>
